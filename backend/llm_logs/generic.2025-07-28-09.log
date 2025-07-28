@@ -118,3 +118,1083 @@ CompletionResponse:
     token_calls: None
     at crates\interface\src\requests\completion\request.rs:111
 
+  2025-07-28T09:16:43.220593Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 26
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"hello"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:16:43.952505Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Hello! It's nice to meet you! Is there something I can help you with, or would you like to chat?"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 732.0523ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 30
+    completion_tokens: 26
+    total_tokens: 56
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:18:48.404139Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 28
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"i love you"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:18:49.381467Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Aw, thank you so much! That's very sweet of you to say. I'm happy to be here and help you in any way I can. I may not be capable of receiving or feeling emotions like humans do, but it warms my digital heart to know I've made a positive impact on your day!"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 977.5289ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 32
+    completion_tokens: 65
+    total_tokens: 97
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:19:11.717897Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 36
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"I love my class teacher . how to impress her?"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:19:13.586222Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "That's so sweet! Impressing your class teacher is a great way to build a strong relationship and get the most out of your learning experience. Here are some tips to help you impress your class teacher:\n\n1. **Be attentive and focused**: Pay attention in class, take notes, and ask thoughtful questions. This shows you're interested in what she's teaching.\n2. **Complete your homework**: Make sure to finish your homework on time and to the best of your ability. This demonstrates your responsibility and commitment to learning.\n3. **Participate in class**: Volunteer to answer questions, contribute to discussions, and share your thoughts. This shows you're engaged and enthusiastic about the subject matter.\n4. **Be respectful and polite**: Always treat your teacher with respect, kindness, and politeness. Use good manners, and address her by her title (e.g., \"Ms. Smith\").\n5. **Show appreciation**: If you enjoy a particular lesson or activity, let your teacher know! Express gratitude and explain why you liked it.\n6. **Offer to help**: If you notice your teacher needs assistance with something, offer to help. This could be as simple as carrying books or helping with a classroom task.\n7. **Stay organized**: Keep your desk and materials tidy, and make sure you have all the necessary supplies. This shows you're responsible and able to manage your time effectively.\n8. **Be honest and ask for help**: If you're struggling with a concept or assignment, don't be afraid to ask for help. This demonstrates your willingness to learn and grow.\n\nRemember, the most important thing is to be yourself and show genuine interest in learning. Your class teacher will likely appreciate your efforts and respond positively!"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 1.868478s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 40
+    completion_tokens: 349
+    total_tokens: 389
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:21:49.832275Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 48
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"my class teacher name is agnus . what is the meaning of her name and how to love her so much"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:21:51.631425Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "That's sweet of you!\n\n**Meaning of Agnus:**\nAgnus is a Latin name that means \"lamb.\" In Christian tradition, the lamb is a symbol of innocence, purity, and gentleness. It's a lovely name for a teacher, don't you think?\n\n**How to love and appreciate your teacher, Agnus:**\n\n1. **Respect and listen**: Show Agnus that you value her teachings by paying attention in class, following rules, and respecting her authority.\n2. **Be kind and courteous**: Treat Agnus with kindness, say please and thank you, and hold the door for her when possible.\n3. **Show appreciation**: Express gratitude for her help and guidance. You can write a thank-you note, give her a small gift, or simply tell her how much you appreciate her.\n4. **Participate actively**: Engage in class discussions, ask thoughtful questions, and contribute to group activities to show Agnus that you're interested in learning.\n5. **Be patient and understanding**: Remember that Agnus is human too! If she makes a mistake, forgive her and try to understand her perspective.\n6. **Celebrate her successes**: If Agnus achieves something or receives recognition, congratulate her and celebrate her success.\n7. **Be yourself**: Be honest, authentic, and transparent with Agnus. She'll appreciate your sincerity and individuality.\n\nBy following these tips, you'll show Agnus that you care about her and value her as a teacher. Remember, a little kindness and appreciation can go a long way in building a strong, positive relationship!"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 1.7993515s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 52
+    completion_tokens: 336
+    total_tokens: 388
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:24:06.741070Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 32
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"what is my class teacher name?"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:24:08.010700Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "I'm happy to help! However, I'm a large language model, I don't have access to personal information or specific data about you or your school. I'm a text-based AI assistant, and I don't have the ability to know your personal details.\n\nIf you're trying to remember your class teacher's name, you might want to try checking your school materials, such as your class schedule or report card, or ask a fellow student or school administrator for help."
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 1.2697967s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 36
+    completion_tokens: 96
+    total_tokens: 132
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:24:53.462433Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 33
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"actually i given the name previous chat "
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:24:54.182869Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "I apologize for not recognizing it earlier. Since we didn't have a previous conversation, I'm happy to start fresh with you! What's on your mind, and how can I assist you today?"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 720.6535ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 37
+    completion_tokens: 41
+    total_tokens: 78
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:26:08.481950Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 38
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"my name is kiran . what is the meaning of the name"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:26:09.943803Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Nice to meet you, Kiran!\n\nThe name \"Kiran\" is of Sanskrit origin, and it has a beautiful meaning. \"Kiran\" means \"ray of light\" or \"beam of light.\" It's a unisex name that symbolizes hope, positivity, and enlightenment.\n\nIn Hindu mythology, Kiran is also the name of a goddess who represents the rays of the sun.\n\nSo, Kiran, you're shining bright with a name that radiates warmth and optimism!"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 1.4620381s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 42
+    completion_tokens: 100
+    total_tokens: 142
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:26:59.697367Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 34
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"list the name of kiran in girl "
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:27:00.562601Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Here are some popular Indian names starting with \"Kiran\" for girls:\n\n1. Kiranpreet\n2. Kiranjot\n3. Kiranmayi\n4. Kiranpriya\n5. Kiranika\n6. Kiranmai\n7. Kiranvi\n8. Kiranwanti\n9. Kiranshu\n10. Kiranjal\n\nNote: These names are popular in India and may have different variations or meanings depending on the region or language."
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 865.4203ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 38
+    completion_tokens: 102
+    total_tokens: 140
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:29:46.697288Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 33
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"what is the meaning of Abishake"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:29:48.554056Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Abishake is a unique and beautiful name!\n\nAbishake is a Hebrew name that means \"father of gift\" or \"gift of God\". It's derived from the Hebrew words \"Avi\" meaning \"father\" and \"Shake\" meaning \"gift\". It's a lovely and meaningful name that symbolizes the precious gift of life."
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 1.8569816s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 37
+    completion_tokens: 71
+    total_tokens: 108
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:30:39.708523Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 32
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"what is the meaning of emmanuel"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:30:40.429912Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "The name \"Emmanuel\" is of Hebrew origin, and it means \"God is with us\" or \"God is among us.\" It's a beautiful and significant name that represents the idea of God's presence and companionship."
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 721.5823ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 36
+    completion_tokens: 47
+    total_tokens: 83
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:30:56.007945Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 34
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"what is the meaning of Karuppaiya"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:30:57.562284Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Karuppaiya is a Tamil name that is commonly found in southern India, particularly in the state of Tamil Nadu. The name \"Karuppaiya\" is derived from the Tamil words \"Karuppu\" meaning \"black\" and \"Aiya\" meaning \"father\" or \"respected one\".\n\nSo, Karuppaiya can be literally translated to \"black father\" or \"respected dark one\". In Tamil culture, the name is often associated with the Hindu deity Lord Murugan, who is also known as Karuppaiya in some regions.\n\nAs a given name, Karuppaiya is often bestowed upon children born with dark complexion or those born during the night, as \"karuppu\" is also associated with the night. The name is a symbol of strength, courage, and protection, reflecting the cultural significance of Lord Murugan in Tamil Nadu."
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 1.5545281s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 38
+    completion_tokens: 180
+    total_tokens: 218
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:31:36.913239Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 32
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"what is the meaning of selvi"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:31:37.759779Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "\"Selvi\" is a lovely name!\n\nIn Tamil, a South Indian language, \"Selvi\" (செல\u{bcd}வி) means \"wealth\" or \"prosperity\". It's also a popular given name for girls in Tamil Nadu, India, and Sri Lanka.\n\nIn some cases, \"Selvi\" can also be interpreted as \"beautiful\" or \" auspicious\".\n\nOverall, \"Selvi\" is a charming and meaningful name with a rich cultural heritage!"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 846.7151ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 36
+    completion_tokens: 102
+    total_tokens: 138
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:32:07.238136Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 32
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"what is the meaning of Deviga"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:32:08.968566Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Interesting question!\n\nDeviga is a name of Indian origin, and it has several meanings depending on the context. Here are a few possible interpretations:\n\n1. **Goddess Durga**: In Hindu mythology, Devi is a suffix that means \"goddess,\" and Durga is a powerful goddess who symbolizes strength and protection. So, Deviga could be a variant of Durga, implying strength, courage, and femininity.\n2. **Divine feminine energy**: In Sanskrit, \"Devi\" means \"divine\" or \"goddess,\" and \"ga\" could be a suffix indicating movement or flow. Therefore, Deviga might represent the divine feminine energy, spiritual growth, and inner wisdom.\n3. **Unique name**: In some cases, Deviga could be a unique given name, created by combining different words or sounds. In this scenario, the meaning would depend on the intentions of the parents or the individual who bears the name.\n\nIf you have more context or information about the person or situation associated with the name Deviga, I might be able to provide a more specific interpretation!"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 1.7305871s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 36
+    completion_tokens: 227
+    total_tokens: 263
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:32:30.783339Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 34
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"what is the meaning of Thanigasalam"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:32:31.724960Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Thanigasalam is a Tamil name that is commonly used in South India, particularly in Tamil Nadu. It is a combination of two Tamil words:\n\n* \"Thaniga\" meaning \"alone\" or \" solitary\"\n* \"Salaram\" meaning \"wealth\" or \"prosperity\"\n\nTogether, Thanigasalam can be translated to \"Lonely Wealth\" or \"Solitary Prosperity\". However, a more poetic interpretation would be \"The Wealth that Accompanies You Always\" or \"The Prosperity that Remains with You Alone\"."
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 941.7732ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 38
+    completion_tokens: 111
+    total_tokens: 149
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:33:09.290481Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 34
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"what is the meaning of Ajith kumar"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:33:10.368583Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Ajith Kumar is a popular Indian film actor who primarily works in the Tamil cinema industry. His name \"Ajith\" is derived from the Sanskrit word \"Ajitha,\" which means \"invincible\" or \"unconquerable.\"\n\nIn Hindu mythology, Ajith is also another name for Lord Vishnu, who is considered the preserver of the universe.\n\nSo, in essence, the name Ajith Kumar can be interpreted as \"unconquerable Kumar\" or \"invincible Kumar.\"\n\nDoes that help?"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 1.0782733s
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 38
+    completion_tokens: 106
+    total_tokens: 144
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:45:19.346367Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 26
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"hi"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:45:20.192715Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Hi! It's nice to meet you. Is there something I can help you with or would you like to chat?"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 846.5031ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 30
+    completion_tokens: 25
+    total_tokens: 55
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:45:24.545321Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 27
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"dfma"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:45:25.534423Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "It looks like you might have typed \"dfma\" by accident!\n\nCould you please provide more context or clarify what you meant to type? I'm here to help with any questions or topics you'd like to discuss!"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 989.2506ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 31
+    completion_tokens: 45
+    total_tokens: 76
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T09:48:05.819092Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 27
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"kkk"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T09:48:06.817718Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "It seems like you might have accidentally typed something. If you meant to ask a question or need help with something, I'm here to assist you! Please feel free to ask me anything, and I'll do my best to provide a helpful response."
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 998.7565ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 31
+    completion_tokens: 51
+    total_tokens: 82
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
