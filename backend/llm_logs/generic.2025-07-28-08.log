@@ -1,0 +1,151 @@
+  2025-07-28T08:58:13.914597Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 26
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"hi"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T08:58:14.557497Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "Hi! It's nice to meet you! How can I assist you today?"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 646.1382ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 30
+    completion_tokens: 17
+    total_tokens: 47
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T08:58:25.047196Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 28
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"how are you"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T08:58:25.646059Z  INFO alith_interface::requests::completion::request: 
+CompletionResponse:
+    content: "I'm doing great, thanks for asking! I'm a large language model, so I don't have feelings like humans do, but I'm always happy to help with any questions or tasks you have. How can I assist you today?"
+    finish_reason: Eos
+    generation_settings: 
+    model: "llama3-70b-8192"
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    n_choices: 1
+    n_predict: Some(4076)
+    n_ctx: 4096
+    logit_bias: None
+    grammar: None
+    stop_sequences: []
+    timing_usage: 
+    total_time: 599.0307ms
+    prompt_processing_t: None
+    generation_t: None
+    prompt_tok_per_ms: None
+    prompt_tok_per_sec: None
+    generation_tok_per_ms: None
+    generation_tok_per_sec: None
+    token_usage: 
+    tokens_cached: None
+    prompt_tokens: 32
+    completion_tokens: 49
+    total_tokens: 81
+    token_calls: None
+    at crates\interface\src\requests\completion\request.rs:111
+
+  2025-07-28T08:58:49.402803Z  INFO alith_interface::requests::completion::request: 
+CompletionRequest:
+  total_prompt_tokens: 32
+  messages:
+
+[1mSystem[0m:
+"You are a helpful AI assistant. Be friendly and provide concise answers."
+
+[1mUser[0m:
+"what is the pm name in india"
+
+  stop_sequences: []
+  grammar_string: None
+  config: 
+    model_ctx_size: 8192
+    inference_ctx_size: 4096
+    requested_response_tokens: Some(4076)
+    actual_request_tokens: Some(4076)
+    frequency_penalty: None
+    presence_penalty: 0.0
+    temperature: 1.0
+    top_p: None
+    retry_after_fail_n_times: 3
+    increase_limit_on_fail: false
+    cache_prompt: false
+  tools: []
+    at crates\interface\src\requests\completion\request.rs:93
+
+  2025-07-28T08:58:49.407290Z  WARN alith_interface::requests::completion::request: e: ClientError(Reqwest(reqwest::Error { kind: Request, url: "https://api.groq.com/openai/v1/chat/completions", source: hyper_util::client::legacy::Error(Connect, ConnectError("dns error", Os { code: 11001, kind: Uncategorized, message: "No such host is known." })) }))
+    at crates\interface\src\requests\completion\request.rs:96
+
